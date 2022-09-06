@@ -1,0 +1,13 @@
+const request = require('request');
+const escapeStringRegexp = require('escape-string-regexp');
+const async = require('async');
+const fs = require('fs');
+const MultiStream = require('multistream');
+const fakeUa = require('fake-useragent');
+
+
+function teste() {
+client.sendMessage(from, 'cu', text)
+}
+  
+module.exports = teste;

@@ -1,0 +1,133 @@
+exports.wait = () => {
+	return`「 ❗ 」AGUARDE`
+}
+
+exports.succes = () => {
+	return`「 ❗ 」PRONTO!!!`
+}
+
+exports.lvlon = () => {
+	return`「 ❗ 」O leveling foi ativado neste grupo!!`
+}
+
+exports.lvloff = () => {
+	return`「 ❗ 」O leveling foi desativado neste grupo!!️`
+}
+
+exports.lvlnul = () => {
+	return`「 ❗ 」Seu nível está vazio`
+}
+
+exports.satukos = () => {
+	return`Adicionar parametros 1/ativa e 0/desativa`
+}
+exports.baned = () => {
+	return`「 ❗ 」Você esta banido de usar meus comandos\n então não estou ouvindo você!!`
+}
+exports.lvlnoon = () => {
+	return`「 ❗ 」Ative primeiro o modo leveling`
+}
+exports.noregis = () => {
+	return`「 ❗ 」Registre-se primeiro\nComo registrar : @verify`
+}
+exports.rediregis = () => {
+	return`「 ❗ 」Você já está registrado no banco de dados da akame`
+}
+exports.stikga = () => {
+	return`「 ❗ 」Deu erro, tente novamente`
+}
+exports.ban = () => {
+	return`「 ❗ 」Você esta banido 😂 ou seja, eu não estou te ouvindo`
+}
+exports.prem = () => {
+	return`「 ❗ 」Você não e um usuário premium, fale com meu criador`
+}
+exports.linkga = () => {
+	return`「 ❗ 」Link invalido`
+}
+exports.groupo = () => {
+	return`「 ❗ 」Esse comando so pode ser usado em grupos`
+}
+exports.ownerb = () => {
+	return`「 ❗ 」Esse comando so pode ser usado pelo meu criador`
+}
+exports.ownerg = () => {
+	return`「 ❗ 」Esse comando so pode ser usado pelo criador do grupo`
+}
+exports.admin = () => {
+	return`「 ❗ 」Você não e Admin kkk você e apenas um membro comum`
+}
+exports.badmin = () => {
+	return`「 ❗ 」Cadê o meu adm?? So pode usar esse comando quando eu me torno administrador`
+}
+exports.nsfwoff = () => {
+	return`「 ❗ 」Ative o nsfw primeiro 😏 `
+}
+exports.bug = (namaowner) => {
+	return`「 ❗ 」O problema foi relatado ao ${namaowner}ツ, Relatório Falso/Não será respondido`
+}
+exports.wrongf = () => {
+	return`「 ❗ 」Formato Errado`
+}
+exports.clears = () => {
+	return`「 ❗ 」Chat limpo 👍`
+}
+exports.rg = (p,pushname) => {
+	return`
+	╭◪ *「 📝REGISTRO📝  」*
+	╰───────────────╮
+	╭───────────────╯
+	├❏ Para se registrar :
+	├❏「📌」Basta digitar ${p}rg nome/idade
+	├❏ *exemplo : ${p}rg NOME/15*
+	╰───────────────╯`
+}
+exports.rgerrado = (p,pushname) => {
+	return`
+[❗] Formato de registro errado tente assim:
+*${p}rg ${pushname}/15*`
+}
+exports.registered = (namaUser, umurUser, serialUser, time, sender) => {
+	return`「 ❗ 」Registrado 🤝🏻`
+}
+
+
+exports.reglevelaha = (command, pushname, getLevelingLevel, sender, aha) => {
+	return`*Desculpe ${pushname} seu nível não é suficiente*\n\n*┏⊱seu nivel : ${getLevelingLevel(sender)}*\n*┣⊱tipo de comando : ${command}*\n*┗⊱requerimento de nível : ${aha}*\n\n_NOTA : CONVERSE NO CHAT PARA OBTER XP_`
+}
+
+exports.reglevelahb = (command, pushname, getLevelingLevel, sender, ahb) => {
+	return`*Desculpe ${pushname} seu nível não é suficiente*\n\n*┏⊱seu nivel : ${getLevelingLevel(sender)}*\n*┣⊱tipo de comando : ${command}*\n*┗⊱requerimento de nível : ${ahb}*\n\n_NOTA : CONVERSE NO CHAT PARA OBTER XP_`
+}
+
+exports.reglevelahc = (command, pushname, getLevelingLevel, sender, ahc) => {
+	return`*Desculpe ${pushname} seu nível não é suficiente*\n\n*┏⊱seu nivel : ${getLevelingLevel(sender)}*\n*┣⊱tipo de comando : ${command}*\n*┗⊱requerimento de nível : ${ahc}*\n\n_NOTA : CONVERSE NO CHAT PARA OBTER XP_`
+}
+
+exports.reglevelahd = (command, pushname, getLevelingLevel, sender, ahd) => {
+	return`*Desculpe ${pushname} seu nível não é suficiente*\n\n*┏⊱seu nivel : ${getLevelingLevel(sender)}*\n*┣⊱tipo de comando : ${command}*\n*┗⊱requerimento de nível : ${ahd}*\n\n_NOTA : CONVERSE NO CHAT PARA OBTER XP_`
+}
+
+exports.reglevelahe = (command, pushname, getLevelingLevel, sender, ahe) => {
+	return`*Desculpe ${pushname} seu nível não é suficiente*\n\n*┏⊱seu nivel : ${getLevelingLevel(sender)}*\n*┣⊱tipo de comando : ${command}*\n*┗⊱requerimento de nível : ${ahe}*\n\n_NOTA : CONVERSE NO CHAT PARA OBTER XP_`
+}
+
+exports.reglevelahf = (command, pushname, getLevelingLevel, sender, ahf) => {
+	return`*Desculpe ${pushname} seu nível não é suficiente*\n\n*┏⊱seu nivel : ${getLevelingLevel(sender)}*\n*┣⊱tipo de comando : ${command}*\n*┗⊱requerimento de nível : ${ahf}*\n\n_NOTA : CONVERSE NO CHAT PARA OBTER XP_`
+}
+
+exports.menu = (pushname, p, getLevelingLevel, getLevelingXp, sender, reqXp, registered, uangku, role) => { 
+	return `
+`
+} 
+exports.limitend = (pushname) => {
+	return`*Desculpe ${pushname} Seu limit acabou*\n*Para conseghir mais limit compre ou passe de nível*\n\n*caso tenha dúvida fale com meu criador... wa.me/556181496039`
+}
+exports.limitcount = (limitCounts) => {
+	return`
+*「 🧮SEU LIMIT🧮 」*
+*seu limite restante : ${limitCounts}*
+`}
+exports.uangkau = (pushname, sender, uangkau) => {
+	return`*┏⊱ 「 🤑DINHERO🤑 」⊰━┓*\n┣⊱ *Nome* : ${pushname}\n┣⊱ *Número* : ${sender.split("@")[0]}\n┣⊱ *Dinhero* : ${uangkau}\n┗━━━━━━━━━━`
+}

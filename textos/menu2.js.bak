@@ -1,0 +1,29 @@
+const menu2 = (prefix, pushname, getLevelingLevel, getLevelingXp, sender, time, patt, uangku, horario, ucapanWaktu, battre) => { 
+return `𖣐 ㋐㋸㋬㋣
+┏━━━━ • ⟐ • ━━━━┓
+      😏 Near 😏
+┗━━━━ • ⟐ • ━━━━┛
+
+    ☢️🚨HOT🚨☢️
+
+╭◪ 「 *M3NÜ$* 」
+╰────────────╮  
+╭────────────
+➟   🚨   _${prefix}menu hentai_ 🚨
+
+ ➟  👔    _${prefix}menu adm_
+ 
+ ➟  💟    _${prefix}menu figu_
+ 
+ ➟  💾    _${prefix}menu down_
+ 
+ ➟  🎲    _${prefix}menu div_
+ 
+ ➟  ♠️    _${prefix}menu dono_
+ 
+ ➟  🗣️    _${prefix}batepapo_
+ 
+ ➟  📡     _${prefix}help_
+╰──────────── ©`}
+
+exports.menu2 = menu2
